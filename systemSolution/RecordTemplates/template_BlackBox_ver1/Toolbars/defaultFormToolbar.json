@@ -1,0 +1,15 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Toolbar",
+    "Owner": "template_BlackBox_ver1",
+    "Alias": "defaultFormToolbar"
+  },
+  "Name": "Toolbar for form",
+  "IsDefaultForLists": false,
+  "IsDefaultForForms": true,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForTaskLists": false
+}

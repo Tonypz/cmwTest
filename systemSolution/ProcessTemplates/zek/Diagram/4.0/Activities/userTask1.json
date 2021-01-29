@@ -1,0 +1,196 @@
+{
+  "$type": "Comindware.Platform.Contracts.TaskActivityModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "zek",
+    "Alias": "userTask1"
+  },
+  "Kind": "User",
+  "UserDefinition": {
+    "$type": "Comindware.Platform.Contracts.UserTaskDefinitionModel, Comindware.Platform.Contracts",
+    "Modifiers": {
+      "$type": "Comindware.Platform.Contracts.ModificationRuleModel[], Comindware.Platform.Contracts",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.ModificationRuleModel, Comindware.Platform.Contracts",
+          "Action": {
+            "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+            "PropertyPath": {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+              "$values": [
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Attribute",
+                  "Alias": "title"
+                }
+              ]
+            },
+            "PropertyAction": "Replace"
+          },
+          "Type": "Modification",
+          "Definition": {
+            "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+            "Values": {
+              "$type": "System.Object[], mscorlib",
+              "$values": [
+                "зек-User Task 1впыавпвапвп"
+              ]
+            },
+            "Type": "Values"
+          }
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.MemberValuesModificationRuleModel, Comindware.Platform.Contracts",
+          "Action": {
+            "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+            "PropertyPath": {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+              "$values": [
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Attribute",
+                  "Alias": "possibleAssignee"
+                }
+              ]
+            },
+            "PropertyAction": "Replace"
+          },
+          "Type": "Modification",
+          "Definition": {
+            "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+            "Values": {
+              "$type": "System.Object[], mscorlib",
+              "$values": [
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Account",
+                  "Alias": "admin"
+                },
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Account",
+                  "Alias": "usertest"
+                },
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Account",
+                  "Alias": "user"
+                }
+              ]
+            },
+            "Type": "Values"
+          }
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.ModificationRuleModel, Comindware.Platform.Contracts",
+          "Action": {
+            "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+            "PropertyPath": {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+              "$values": [
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Attribute",
+                  "Owner": "_UserTask",
+                  "Alias": "isReassignProhibited"
+                }
+              ]
+            },
+            "PropertyAction": "Replace"
+          },
+          "Type": "Modification",
+          "Definition": {
+            "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+            "Values": {
+              "$type": "System.Object[], mscorlib",
+              "$values": [
+                false
+              ]
+            },
+            "Type": "Values"
+          }
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.ModificationRuleModel, Comindware.Platform.Contracts",
+          "Action": {
+            "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+            "PropertyPath": {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+              "$values": [
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Attribute",
+                  "Alias": "dueDate"
+                }
+              ]
+            },
+            "PropertyAction": "Replace"
+          },
+          "Type": "Modification",
+          "Definition": {
+            "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+            "Type": "Values"
+          }
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.ModificationRuleModel, Comindware.Platform.Contracts",
+          "Action": {
+            "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+            "PropertyPath": {
+              "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+              "$values": [
+                {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Type": "Attribute",
+                  "Owner": "_Case",
+                  "Alias": "description"
+                }
+              ]
+            },
+            "PropertyAction": "Replace"
+          },
+          "Type": "Modification",
+          "Definition": {
+            "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+            "Type": "Values"
+          }
+        }
+      ]
+    }
+  },
+  "FormAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessForm",
+    "Owner": "zek",
+    "Alias": "formd68db0ee5e344da8a21e9c298cb8b268"
+  },
+  "BehaviourState": "Active",
+  "Title": "User Task 1",
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 360.0,
+    "Y": 65.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Width": 120.0,
+    "Height": 70.0
+  },
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "zek",
+    "Alias": "pool1"
+  },
+  "OwnerEmbeddedProcessActivityAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "MountedOnAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Type": "Task"
+}

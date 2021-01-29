@@ -1,0 +1,50 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "UserCommand",
+    "Owner": "template_BlackBox_ver1",
+    "Alias": "qqqqqqqqqqqqqqqqqqqqqq"
+  },
+  "Name": "qqqqqqqqqqqqqqqqqqqqqq",
+  "IsSystem": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "SkipValidation": false,
+  "Context": "Record",
+  "Multiplicity": "OneByOne",
+  "Kind": "Create",
+  "ResultType": "DataChange",
+  "ConfirmationModelConfiguration": {
+    "$type": "Comindware.Platform.Contracts.UserCommandConfirmationModel, Comindware.Platform.Contracts",
+    "Title": "Новая операция",
+    "Text": "Подтвердить выполнение операции",
+    "YesButtonText": "Выполнить",
+    "NoButtonText": "Отмена",
+    "Severity": "None"
+  },
+  "RelatedAction": {
+    "$type": "Comindware.Platform.Contracts.UserCommandRelatedActionModel, Comindware.Platform.Contracts",
+    "ContainerGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "RecordTemplate",
+      "Alias": "template_BlackBox_ver1"
+    },
+    "TemplateGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Undefined"
+    },
+    "FormGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Form",
+      "Owner": "template_BlackBox_ver1",
+      "Alias": "defaultForm"
+    }
+  },
+  "RelatedEntityGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined"
+}

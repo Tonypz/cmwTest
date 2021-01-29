@@ -1,0 +1,36 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "RoleWorkspace",
+    "Alias": "systemRoleWorkspace"
+  },
+  "Name": "System workspace",
+  "IsDefault": true,
+  "Description": "System workspace",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "My Tasks",
+        "Description": "",
+        "Priority": 2,
+        "ItemType": "MyTasks",
+        "IconClass": "tasks",
+        "Severity": "None"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Name": "Create",
+        "Description": "",
+        "Container": "dfdddddd",
+        "Priority": 1,
+        "ItemType": "Action",
+        "IconClass": "align-justify",
+        "Target": "create",
+        "Severity": "None"
+      }
+    ]
+  }
+}
